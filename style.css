@@ -1,0 +1,99 @@
+body {
+    
+    display: block;
+    width: 960px;
+    margin: auto;
+}
+
+header {
+
+    background-color: #003d99;
+    width: 960px;
+    height: 60px;
+}
+
+.logo {
+
+    width: 350px;
+    float: right;
+}
+
+#container {
+    
+}
+
+div.content {
+
+    float: right;
+    width: 740px;
+    height: 600px;
+    background-image: url('background.png');
+}
+
+aside {
+    
+    width: 200px;
+    background-color: #0066ff;
+    min-height: 600px; /*här vi kan skriva height 100% när det kommer inehållet*/   
+}
+
+.menytext {
+
+    text-decoration: none; /*tar bort linjen under texten på länken*/
+}
+
+.menyknapp {
+
+    color: #ffffff;
+    font-size: 25px; /*behövs ändras så det blir relativt*/
+    font-family: ; /*lägg in fonten vi väljer här*/
+    width: 200px; /*behövs ändras så det blir relativt*/
+    display: block; /*gör så hela knappen blir klickbar, inte bara texten*/
+    block-size: 50px; /*behövs ändras så det blir relativt*/
+    background-color: #005ae0;
+    border-color: #0066ff;
+    min-height: 50px; /*behövs ändras så det blir relativt*/
+}
+
+.menyknapp:hover {
+
+    color: #e6e6e6;
+    background-color: #003d99;
+    border-color: #0052cc;
+}
+
+.menyknapp:active { /*vill vi ha med detta?*/
+
+    color: ;
+    background-color: ;
+    border-color: ;
+}
+
+.menyknapp::after { /*vill vi ha med detta?*/
+
+    color: ;
+    background-color: ;
+    border-color: ;
+}
+
+fieldset {
+    width: 200px;
+}
+
+footer {
+
+    background-color: #003d99;
+    height: 60px;
+    position: relative;
+}
+
+/*Den här vi använder specifitet i två nivåer*/
+footer p {
+
+    color: #ffffff;
+    padding-top: 3px;
+    padding-left: 10px;
+    float: left;
+    
+}
+

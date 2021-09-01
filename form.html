@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Comedy webbsidan</title>
+    <script>
+        function myFunction()
+{
+    alert('Tack för ditt meddelande!');
+}
+
+    </script>
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="logo.png" alt="logotype">
+    </header>
+    <main>
+        <div class="content">
+            <article> <!--Artcile är liksom blogg inlägg. Jag lägga in rubrik och section som måste ha bild som inehållet-->
+                <h1>rubrik</h1>
+                <section>
+                    <img>
+                    <img>
+                    <img>
+                </section>
+            </article>
+            <article>
+                <section>
+                    
+                        <fieldset width="100px">
+                            <legend>KONTAKTA OSS </legend>
+                    <form id="mail" method="post" onsubmit="myFunction" action="">
+                        Förnamn:<br>
+                        <input type="text" id="fnamn"/> <br>                        
+                        E-postadress:<br>
+                        <input type="text" id="epost" required/> <br>
+                        Meddelande:<br>
+                        <textarea id="meddelande" title="Skriva gärna till oss" cols="30" required row="30"></textarea> <br>
+                        <input type="submit" value="Skicka meddelande">
+                    </form>
+                   
+
+                        </fieldset>
+                    
+                </section>
+            </article>
+        </div>
+        <aside>
+            <nav id="menu">
+                <a class="menytext" href="index.html"><button class="menyknapp">Home</button></a>
+                <a class="menytext" href="gallery.html"><button class="menyknapp">Gallery</button></a>
+                <a class="menytext" href="forum.html"><button class="menyknapp">Forum</button></a>
+                <a class="menytext" href="about.html"><button class="menyknapp">About</button></a>
+                <a class="menytext" href="contact.html"><button class="menyknapp">Contact</button></a>
+            </nav>
+        </aside>
+</main>
+    <footer>
+        <p>&copy; Skapat av Alexander & Amanuel & Ingrid </p>    
+    </footer>
+        
+</body>
+</html>
