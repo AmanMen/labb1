@@ -10,7 +10,7 @@
     <script>
         function myFunction()
 {
-    alert('Tack för ditt meddelande!');
+    alert("Tack för ditt meddelande!");
 }
 
     </script>
@@ -35,14 +35,14 @@
                     
                         <fieldset width="100px">
                             <legend>KONTAKTA OSS </legend>
-                    <form id="mail" method="post"   action="form.html">
+                    <form id="mail" method="post" action="form.html">
                         Förnamn:<br>
                         <input type="text" id="fnamn"/> <br>                        
                         E-postadress:<br>
                         <input type="text" id="epost" required/> <br>
                         Meddelande:<br>
                         <textarea id="meddelande" title="Skriva gärna till oss" cols="30" required row="30"></textarea> <br>
-                        <button type="submit" onclick="myFunction"></button>
+                        <input type="button" value="Skicka meddelande" onclick="myFunction();">
                     </form>
                    
 
