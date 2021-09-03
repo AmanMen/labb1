@@ -1,4 +1,4 @@
     function myFunction()
     {  
-   alert ('blt nx');
+   alert ('oi');
     }
