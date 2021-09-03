@@ -80,15 +80,17 @@ fieldset {
     width: 200px;
 }
 
-.gallery{ /* Css för gallery */
-    display: flow;              
-    flex-direction: row;    
-    justify-content: center;    
-    align-items: center;       
-    height: 300px;
-    position: relative;
-	padding: 20px;
-    border: 1px solid black;
+.content{ /* Css för gallery */
+    display: block;
+    width: 250px;
+
+}
+
+.gallery {
+    display: flex;
+    width: 250px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .image:hover img{
@@ -116,4 +118,3 @@ footer p {
     float: left;
     
 }
-
