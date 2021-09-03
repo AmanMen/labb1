@@ -31,7 +31,6 @@ div.content {
 }
 
 aside {
-    
     width: 200px;
     background-color: #0066ff;
     min-height: 600px; /*här vi kan skriva height 100% när det kommer inehållet*/   
@@ -43,7 +42,6 @@ aside {
 }
 
 .menyknapp {
-
     color: #ffffff;
     font-size: 25px; /*behövs ändras så det blir relativt*/
     font-family: ; /*lägg in fonten vi väljer här*/
@@ -107,8 +105,44 @@ fieldset {
 }
 /* Css gallery end */
 
-footer {
+/* Css forum start*/
+#sectionForum {
+    display: flex;
+    width: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+#inputForum {
+    display: flex;
+    width: 400px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 250px;
+    justify-content: center;
+}
+
+#knappForum {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+#textrutaForum {
+    display: flex;
+    width: 400px;
+    background-color: #e6e6e6; /* ska/kan tas bort */
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+/* Css forum end */
+
+footer {
     background-color: #003d99;
     height: 60px;
     position: relative;
