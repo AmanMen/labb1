@@ -77,7 +77,12 @@ aside {
 }
 
 fieldset {
-    width: 200px;
+    width: 250px;
+}
+
+.form {
+    padding-left: 50px;
+    padding-top: 80px;
 }
 
 .gallery{ /* Css för gallery */
