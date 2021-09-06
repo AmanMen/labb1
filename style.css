@@ -74,9 +74,15 @@ aside {
     border-color: ;
 }
 
-.about {
-    width: 250px;
+h1 {
+    padding-top: 20px;
+}
+
+.about p {
+    width: 350px;
+    padding-top: 20px;
     justify-content: center;
+    text-align: justify;
 }
 
 fieldset {
