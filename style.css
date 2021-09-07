@@ -55,7 +55,6 @@ aside {
 
 .menyknapp {
     color: #ffffff;
-    text-shadow: 2px #382903;
     font-size: 25px; /*behövs ändras så det blir relativt*/
     font-family: ; /*lägg in fonten vi väljer här*/
     width: 200px; /*behövs ändras så det blir relativt*/
@@ -70,7 +69,6 @@ aside {
 .menyknapp:hover {
 
     color: #e6e6e6;
-    text-shadow: 1px #382903;
     background-color: #533c05;
     border-color: #382903;
     border-radius: 5px;
