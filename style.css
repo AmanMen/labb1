@@ -69,6 +69,7 @@ aside {
 .menyknapp:hover {
 
     color: #e6e6e6;
+    text-shadow: 1px #382903;
     background-color: #533c05;
     border-color: #382903;
     border-radius: 5px;
@@ -102,6 +103,7 @@ h1 {
 fieldset {
     width: 250px;
     color: #ffffff;
+    text-shadow: 1px #382903;
     
 }
 
