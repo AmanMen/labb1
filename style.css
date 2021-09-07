@@ -101,6 +101,10 @@ h1 {
 
 fieldset {
     width: 250px;
+    
+}
+
+fieldset#meddelande {
     min-height: 400px;
 }
 
