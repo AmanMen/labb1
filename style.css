@@ -60,8 +60,8 @@ aside {
     width: 200px; /*behövs ändras så det blir relativt*/
     display: block; /*gör så hela knappen blir klickbar, inte bara texten*/
     block-size: 50px; /*behövs ändras så det blir relativt*/
-    background-color: #533c05;
-    border-color: #382903;
+    background-color: #966d09;
+    border-color: #856108;
     border-radius: 5px;
     min-height: 50px; /*behövs ändras så det blir relativt*/
 }
@@ -69,8 +69,8 @@ aside {
 .menyknapp:hover {
 
     color: #e6e6e6;
-    background-color: #966d09;
-    border-color: #856108;
+    background-color: #533c05;
+    border-color: #382903;
     border-radius: 5px;
 }
 
