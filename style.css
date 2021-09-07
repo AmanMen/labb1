@@ -55,6 +55,7 @@ aside {
 
 .menyknapp {
     color: #ffffff;
+    text-shadow: 2px #382903;
     font-size: 25px; /*behövs ändras så det blir relativt*/
     font-family: ; /*lägg in fonten vi väljer här*/
     width: 200px; /*behövs ändras så det blir relativt*/
@@ -103,11 +104,11 @@ h1 {
 fieldset {
     width: 250px;
     color: #ffffff;
-    text-shadow: 1px #382903;
+    text-shadow: 2px #382903;
     
 }
 
-fieldset#meddelande {
+#meddelande {
     min-height: 400px;
 }
 
