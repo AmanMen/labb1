@@ -26,7 +26,7 @@ header {
     float: right;
 }
 
-#container {
+div#container {
     background-color: #ffffff;
 }
 
@@ -38,7 +38,6 @@ div.content {
     float: right;
     width: 740px;
     min-height: 100%;
-    
     
 }
 
@@ -92,34 +91,34 @@ h1 {
     padding-top: 20px;
 }
 
-.about p {
-    width: 350px;
-    padding-top: 20px;
-    justify-content: center;
-    text-align: justify;
-}
-
 fieldset {
     width: 250px;
-    color: #ffffff;
     text-shadow: 2px #382903;
+    position: relative;
+}
+
+img {
+   width: 35%;
+    
     
 }
 
 #meddelande {
-    min-height: 400px;
+    min-height: 300px;
 }
 
 .form {
-    padding-left: 50px;
-    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
 }
 
-.content{ /* Css för gallery */
+/* .content{ /* Css för gallery 
     display: block;
     width: 250px;
 
-}
+} */
 
 .gallery {
     display: flex;
