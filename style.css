@@ -23,10 +23,11 @@ header {
 .logo {
 
     width: 350px;
+    height: 100%;
     float: right;
 }
 
-#container {
+div#container {
     background-color: #ffffff;
 }
 
@@ -38,7 +39,6 @@ div.content {
     float: right;
     width: 740px;
     min-height: 100%;
-    
     
 }
 
@@ -93,6 +93,7 @@ h1 {
     padding-top: 20px;
 }
 
+<<<<<<< HEAD
 /* Behövs detta fortfarande 
 .about p {
     width: 350px;
@@ -102,31 +103,48 @@ h1 {
 }
 */
 
+=======
+>>>>>>> 068a8dba13706ea87b3cdc41219b8407ecf0ad7e
 fieldset {
     width: 250px;
-    color: #ffffff;
     text-shadow: 2px #382903;
     
 }
 
+img {
+   width: 25%;
+   height: 50%;
+    
+    
+}
+
 #meddelande {
-    min-height: 400px;
+    min-height: 300px;
 }
 
 .form {
-    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     padding-top: 80px;
+   
 }
 
+<<<<<<< HEAD
 /* Css gallery start */
 .h1{
 text-align: center;
 }
+=======
+>>>>>>> 068a8dba13706ea87b3cdc41219b8407ecf0ad7e
 
 .gallery{ 
 
     margin: 5px;
     display: flex;
+<<<<<<< HEAD
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -136,6 +154,22 @@ text-align: center;
 img{
     padding: 5px;
     border-radius: 15px;
+=======
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 80px;
+   
+   
+}
+
+.gallery img {
+    width: 200px;
+    height: 80%;
+    
+}
+>>>>>>> 068a8dba13706ea87b3cdc41219b8407ecf0ad7e
 
 }
 /* Css gallery end */
