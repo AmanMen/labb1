@@ -118,21 +118,22 @@ img {
    
 }
 
-/* .content{ /* Css för gallery 
-    display: block;
-    width: 250px;
-
-} */
 
 .gallery {
     display: flex;
-    width: 250px;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 80px;
+   
+   
 }
 
-.image:hover img{
-    transform: scale (1.1);
+.gallery img {
+    width: 200px;
+    height: 80%;
+    
 }
 
 @media screen and (max-width:1024px) {
