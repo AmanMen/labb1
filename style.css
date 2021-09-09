@@ -94,11 +94,12 @@ h1 {
 fieldset {
     width: 250px;
     text-shadow: 2px #382903;
-    position: relative;
+    
 }
 
 img {
-   width: 35%;
+   width: 25%;
+   height: 50%;
     
     
 }
@@ -111,6 +112,9 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
    
 }
 
