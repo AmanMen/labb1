@@ -23,10 +23,11 @@ header {
 .logo {
 
     width: 350px;
+    height: 100%;
     float: right;
 }
 
-#container {
+div#container {
     background-color: #ffffff;
 }
 
@@ -38,7 +39,6 @@ div.content {
     float: right;
     width: 740px;
     min-height: 100%;
-    
     
 }
 
@@ -92,45 +92,50 @@ h1 {
     padding-top: 20px;
 }
 
-.about p {
-    width: 350px;
-    padding-top: 20px;
-    justify-content: center;
-    text-align: justify;
-}
-
 fieldset {
     width: 250px;
-    color: #ffffff;
     text-shadow: 2px #382903;
     
 }
 
+img {
+   width: 25%;
+   height: 50%;
+    
+    
+}
+
 #meddelande {
-    min-height: 400px;
+    min-height: 300px;
 }
 
 .form {
-    padding-left: 50px;
-    padding-top: 80px;
-}
-
-.content{ /* Css för gallery */
-    display: block;
-    width: 250px;
-
-}
-
-.gallery {
     display: flex;
-    width: 250px;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+   
 }
 
-.image:hover img{
-    transform: scale (1.1);
+
+/*.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 80px;
+   
+   
 }
+
+.gallery img {
+    width: 200px;
+    height: 80%;
+    
+}*/
 
 @media screen and (max-width:1024px) {
     
