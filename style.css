@@ -120,7 +120,7 @@ img {
 }
 
 
-.gallery {
+/*.gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -135,7 +135,7 @@ img {
     width: 200px;
     height: 80%;
     
-}
+}*/
 
 @media screen and (max-width:1024px) {
     
