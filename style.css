@@ -45,9 +45,8 @@ div.content {
 aside {
     width: 200px;
     background-color: #ffc129;
-    min-height:900px; /*här vi kan skriva height 100% när det kommer inehållet*/   
+    min-height: 800px; /*här vi kan skriva height 100% när det kommer inehållet*/   
 }
-
 
 .menytext {
 
@@ -93,18 +92,6 @@ h1 {
     padding-top: 20px;
 }
 
-<<<<<<< HEAD
-/* Behövs detta fortfarande 
-.about p {
-    width: 350px;
-    padding-top: 20px;
-    justify-content: center;
-    text-align: justify;
-}
-*/
-
-=======
->>>>>>> 068a8dba13706ea87b3cdc41219b8407ecf0ad7e
 fieldset {
     width: 250px;
     text-shadow: 2px #382903;
@@ -132,29 +119,9 @@ img {
    
 }
 
-<<<<<<< HEAD
-/* Css gallery start */
-.h1{
-text-align: center;
-}
-=======
->>>>>>> 068a8dba13706ea87b3cdc41219b8407ecf0ad7e
 
-.gallery{ 
-
-    margin: 5px;
+.gallery {
     display: flex;
-<<<<<<< HEAD
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-  }
-
-img{
-    padding: 5px;
-    border-radius: 15px;
-=======
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -169,8 +136,9 @@ img{
     height: 80%;
     
 }
->>>>>>> 068a8dba13706ea87b3cdc41219b8407ecf0ad7e
 
+@media screen and (max-width:1024px) {
+    
 }
 /* Css gallery end */
 
